@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<programmeList>
+	<programme id="1">
+		<name>Alice in Wonderland</name>
+		<image>../images/programmes/aliceinwonderland.jpg</image>
+		<mood>Calm</mood>
+	</programme>
+	<programme id="2">
+		<name>Avatar</name>
+		<image>../images/programmes/avatar.jpg</image>
+		<mood>Agitated</mood>
+	</programme>
+	<programme id="3">
+		<name>Bruce Almighty</name>
+		<image>../images/programmes/bruceAlmighty.jpg</image>
+		<mood>Happy</mood>
+	</programme>
+	<programme id="4">
+		<name>Goodfellas</name>
+		<image>../images/programmes/goodfellas.jpg</image>
+		<mood>Sad</mood>
+	</programme>
+	<programme id="5">
+		<name>Interstellar</name>
+		<image>../images/programmes/interstellar.jpg</image>
+		<mood>Wide Awake</mood>
+	</programme>
+</programmeList>

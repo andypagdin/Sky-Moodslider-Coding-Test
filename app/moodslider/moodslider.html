@@ -26,29 +26,29 @@
 <div flex="45">
 	<md-slider-container>
 		<span class="leftFeeling">Agitated</span>
-		<md-slider max="100" ng-model="slider.one" aria-label="one"></md-slider>
+		<md-slider max="2" ng-model="slider.agitated_calm" ng-change="moodCheck(slider.agitated_calm, 'ac')" aria-label="agitated_calm"></md-slider>
 		<span class="rightFeeling">Calm</span>
 	</md-slider-container>
 	<md-slider-container>
 		<span class="leftFeeling">Happy</span>
-		<md-slider max="100" ng-model="slider.two" aria-label="two"></md-slider>
+		<md-slider max="2" ng-model="slider.happy_sad" ng-change="moodCheck(slider.happy_sad, 'hc')" aria-label="happy_sad"></md-slider>
 		<span class="rightFeeling">Sad</span>
 	</md-slider-container>
 	<md-slider-container>
 		<span class="leftFeeling">Tired</span>
-		<md-slider max="100" ng-model="slider.three" aria-label="three"></md-slider>
+		<md-slider max="2" ng-model="slider.tired_wideawake" aria-label="tired_wideawake"></md-slider>
 		<span class="rightFeeling">Wide Awake</span>
 	</md-slider-container>
 	<md-slider-container>
 		<span class="leftFeeling">Scared</span>
-		<md-slider max="100" ng-model="slider.four" aria-label="four"></md-slider>
+		<md-slider max="2" ng-model="slider.scared_fearless" aria-label="scared_fearless"></md-slider>
 		<span class="rightFeeling">Fearless</span>
 	</md-slider-container>
 </div>
 
 <div flex="35">
 	<div layout="row">
-		<div flex="25" ng-repeat="item in programmeList|limitTo:5">
+		<div flex="25" ng-repeat="item in recommendedProgramme|limitTo:5">
 			<img ng-src="{{ item.image }}" width="150" height="150">
 			<br/>
 			{{ item.mood }}
