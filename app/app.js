@@ -4,7 +4,8 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.moodslider',
-  'myApp.upload'
+  'myApp.upload',
+  'ngMaterial'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');

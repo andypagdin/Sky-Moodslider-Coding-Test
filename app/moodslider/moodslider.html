@@ -1,1 +1,61 @@
-<p>Moodslider</p>
+<div flex="20">
+	<div layout="row" class="height">
+		<!-- Logo -->
+		<div flex="20" class="logo-box"></div>
+
+		<div flex="80">
+			<div layout="column" layout layout-align="center center" class="height">
+				<!-- Title Bar -->
+				<div flex="50">
+					<h1>Moodslider</h1>
+				</div>
+				<div flex="50">
+					<!-- Navigation Menu -->
+					<ul class="menu">
+					    <li><a href="#!/moodslider">Moodslider</a></li>
+					    <li>|</li>
+					    <li><a href="#!/upload">Upload Content</a></li>
+				  	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Sliders -->
+<div flex="45">
+	<md-slider-container>
+		<span class="leftFeeling">Agitated</span>
+		<md-slider max="100" ng-model="slider.one" aria-label="one"></md-slider>
+		<span class="rightFeeling">Calm</span>
+	</md-slider-container>
+	<md-slider-container>
+		<span class="leftFeeling">Happy</span>
+		<md-slider max="100" ng-model="slider.two" aria-label="two"></md-slider>
+		<span class="rightFeeling">Sad</span>
+	</md-slider-container>
+	<md-slider-container>
+		<span class="leftFeeling">Tired</span>
+		<md-slider max="100" ng-model="slider.three" aria-label="three"></md-slider>
+		<span class="rightFeeling">Wide Awake</span>
+	</md-slider-container>
+	<md-slider-container>
+		<span class="leftFeeling">Scared</span>
+		<md-slider max="100" ng-model="slider.four" aria-label="four"></md-slider>
+		<span class="rightFeeling">Fearless</span>
+	</md-slider-container>
+</div>
+
+<div flex="35">
+	<div layout="row">
+		<div flex="25" ng-repeat="item in programmeList|limitTo:5">
+			<img ng-src="{{ item.image }}" width="150" height="150">
+			<br/>
+			{{ item.mood }}
+			<br/>
+			{{ item.name }}
+		</div>
+	</div>
+</div>
+
+

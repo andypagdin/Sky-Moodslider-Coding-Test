@@ -1,25 +1,69 @@
 /* app css stylesheet */
 
+md-slider-container {
+	padding-bottom: 20px;
+}
+
+md-slider-container>:first-child:not(md-slider), md-slider-container>:last-child:not(md-slider) {
+	max-width: none !important;
+}
+
+.leftFeeling {
+	width: 50px;
+	text-align: center;
+}
+
+.rightFeeling {
+	width: 60px;
+	text-align: center;
+}
+
+md-toolbar {
+	color: none;
+}
+.margin {
+	margin: 10px;
+}
+.outline {
+	border: 1px solid;
+}
+
+.logo-box {
+	background-image: url(images/logo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+
+.height {
+	height: 100%;
+}
+
 .menu {
-  list-style: none;
-  border-bottom: 0.1em solid black;
-  margin-bottom: 2em;
-  padding: 0 0 0.5em;
-}
-
-.menu:before {
-  content: "[";
-}
-
-.menu:after {
-  content: "]";
+	list-style: none;
+	margin-bottom: 2em;
+	padding: 0 0 0.5em;
+	font-size: 17px;
 }
 
 .menu > li {
-  display: inline;
+	display: inline;
 }
 
-.menu > li + li:before {
-  content: "|";
-  padding-right: 0.3em;
+.menu > li:nth-child(1){
+	padding-right: 10px;
+}
+
+.menu > li:nth-child(3){
+	padding-left: 10px;
+}
+
+.menu > li > a {
+	text-decoration: none;
+	color: #000;
+}
+
+@media screen and (max-height: 630px){
+	md-slider-container {
+		padding-bottom: 0px;
+	}
 }
