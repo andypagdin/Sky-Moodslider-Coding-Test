@@ -1,6 +1,29 @@
-<ul class="menu">
-	<li><a href="#!/moodslider">Moodslider</a></li>
-	<li><a href="#!/upload">Upload Content</a></li>
-</ul>
-<p>Upload Content</p>
+<div flex="20">
+	<div layout="row" class="height">
+		<!-- Logo -->
+		<div flex="20" class="logo-box"></div>
+
+		<div flex="80">
+			<div layout="column" layout layout-align="center center" class="height">
+				<!-- Title Bar -->
+				<div flex="50">
+					<h1>Moodslider</h1>
+				</div>
+				<div flex="50">
+					<!-- Navigation Menu -->
+					<ul class="menu">
+					    <li><a href="#!/moodslider">Moodslider</a></li>
+					    <li>|</li>
+					    <li><a href="#!/upload">Upload Content</a></li>
+				  	</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div flex="80">
+  <h2>Select XML Document</h2>
+    <input type="file" on-read-file="showContent($fileContent)" />
+</div>
 

@@ -7,6 +7,7 @@ angular.module('myApp', [
   'myApp.upload',
   'ngMaterial'
 ]).
+
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 

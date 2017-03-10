@@ -23,7 +23,7 @@
 </div>
 
 <!-- Sliders -->
-<div flex="45">
+<div flex="35">
 	<md-slider-container>
 		<span class="leftFeeling">Agitated</span>
 		<md-slider max="2" ng-model="slider.agitated_calm" ng-change="moodCheck(slider.agitated_calm, 'ac')" aria-label="agitated_calm"></md-slider>
@@ -36,24 +36,25 @@
 	</md-slider-container>
 	<md-slider-container>
 		<span class="leftFeeling">Tired</span>
-		<md-slider max="2" ng-model="slider.tired_wideawake" aria-label="tired_wideawake"></md-slider>
+		<md-slider max="2" ng-model="slider.tired_wideawake" ng-change="moodCheck(slider.tired_wideawake, 'tw')" aria-label="tired_wideawake"></md-slider>
 		<span class="rightFeeling">Wide Awake</span>
 	</md-slider-container>
 	<md-slider-container>
 		<span class="leftFeeling">Scared</span>
-		<md-slider max="2" ng-model="slider.scared_fearless" aria-label="scared_fearless"></md-slider>
+		<md-slider max="2" ng-model="slider.scared_fearless" ng-change="moodCheck(slider.scared_fearless, 'sf')" aria-label="scared_fearless"></md-slider>
 		<span class="rightFeeling">Fearless</span>
 	</md-slider-container>
 </div>
 
-<div flex="35">
-	<div layout="row">
-		<div flex="25" ng-repeat="item in recommendedProgramme|limitTo:5">
-			<img ng-src="{{ item.image }}" width="150" height="150">
+<h2 layout layout-align="center center">{{ contentCheck }}</h2>
+
+<!-- Film Recommendations -->
+<div flex="45">
+	<div layout="row" class="heightRow">
+		<div flex="25" class="filmRowContainer" ng-repeat="item in programme | filter:filter() | limitTo:5">
+			<div id="container" style="background-image: url({{ item.image }})"></div>
 			<br/>
-			{{ item.mood }}
-			<br/>
-			{{ item.name }}
+			<div layout layout-align="center">{{ item.name }}</div>
 		</div>
 	</div>
 </div>

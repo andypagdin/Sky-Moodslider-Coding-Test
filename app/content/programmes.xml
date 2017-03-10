@@ -1,4 +1,3 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <programmeList>
 	<programme id="1">
 		<name>Alice in Wonderland</name>
@@ -6,23 +5,218 @@
 		<mood>Calm</mood>
 	</programme>
 	<programme id="2">
+		<name>The Intern</name>
+		<image>../images/programmes/theintern.jpg</image>
+		<mood>Calm</mood>
+	</programme>
+	<programme id="3">
+		<name>50 First Dates</name>
+		<image>../images/programmes/50firstdates.jpg</image>
+		<mood>Calm</mood>
+	</programme>
+	<programme id="4">
+		<name>The Pacifier</name>
+		<image>../images/programmes/thepacifier.jpg</image>
+		<mood>Calm</mood>
+	</programme>
+		<programme id="5">
+		<name>Ocean's Thirteen</name>
+		<image>../images/programmes/oceansthirteen.jpg</image>
+		<mood>Calm</mood>
+	</programme>
+
+
+
+	<programme id="6">
 		<name>Avatar</name>
 		<image>../images/programmes/avatar.jpg</image>
 		<mood>Agitated</mood>
 	</programme>
-	<programme id="3">
+	<programme id="7">
+		<name>John Wick</name>
+		<image>../images/programmes/johnwick.jpg</image>
+		<mood>Agitated</mood>
+	</programme>
+	<programme id="8">
+		<name>Hacksaw Ridge</name>
+		<image>../images/programmes/hacksawridge.png</image>
+		<mood>Agitated</mood>
+	</programme>
+	<programme id="9">
+		<name>Trainspotting</name>
+		<image>../images/programmes/trainspotting.jpg</image>
+		<mood>Agitated</mood>
+	</programme>
+	<programme id="10">
+		<name>Fences</name>
+		<image>../images/programmes/fences.png</image>
+		<mood>Agitated</mood>
+	</programme>
+
+
+
+	<programme id="11">
 		<name>Bruce Almighty</name>
 		<image>../images/programmes/bruceAlmighty.jpg</image>
 		<mood>Happy</mood>
 	</programme>
-	<programme id="4">
-		<name>Goodfellas</name>
-		<image>../images/programmes/goodfellas.jpg</image>
+	<programme id="12">
+		<name>Mary Poppins</name>
+		<image>../images/programmes/marypoppins.jpg</image>
+		<mood>Happy</mood>
+	</programme>
+	<programme id="13">
+		<name>Home Alone</name>
+		<image>../images/programmes/homealone.jpg</image>
+		<mood>Happy</mood>
+	</programme>
+	<programme id="14">
+		<name>Casper</name>
+		<image>../images/programmes/casper.jpg</image>
+		<mood>Happy</mood>
+	</programme>
+	<programme id="15">
+		<name>Grown Ups</name>
+		<image>../images/programmes/grownups.jpg</image>
+		<mood>Happy</mood>
+	</programme>
+
+
+
+	<programme id="16">
+		<name>The Lion King</name>
+		<image>../images/programmes/thelionking.jpg</image>
 		<mood>Sad</mood>
 	</programme>
-	<programme id="5">
-		<name>Interstellar</name>
-		<image>../images/programmes/interstellar.jpg</image>
-		<mood>Wide Awake</mood>
+	<programme id="17">
+		<name>Titanic</name>
+		<image>../images/programmes/titanic.jpg</image>
+		<mood>Sad</mood>
 	</programme>
+	<programme id="18">
+		<name>Schindler's List</name>
+		<image>../images/programmes/schindlerslist.jpg</image>
+		<mood>Sad</mood>
+	</programme>
+	<programme id="19">
+		<name>Hachi: A Dogs Tale</name>
+		<image>../images/programmes/hachiadogstale.jpg</image>
+		<mood>Sad</mood>
+	</programme>
+	<programme id="20">
+		<name>Remember Me</name>
+		<image>../images/programmes/rememberme.jpg</image>
+		<mood>Sad</mood>
+	</programme>
+
+
+
+	<programme id="21">
+		<name>Get Him to the Greek</name>
+		<image>../images/programmes/gethimtothegreek.jpg</image>
+		<mood>Tired</mood>
+	</programme>
+	<programme id="22">
+		<name>The Hangover</name>
+		<image>../images/programmes/thehangover.jpg</image>
+		<mood>Tired</mood>
+	</programme>
+	<programme id="23">
+		<name>Horrible Bosses</name>
+		<image>../images/programmes/horriblebosses.jpg</image>
+		<mood>Tired</mood>
+	</programme>
+	<programme id="24">
+		<name>Just My Luck</name>
+		<image>../images/programmes/justmyluck.jpg</image>
+		<mood>Tired</mood>
+	</programme>
+	<programme id="25">
+		<name>Sex and the City</name>
+		<image>../images/programmes/sexandthecity.jpg</image>
+		<mood>Tired</mood>
+	</programme>
+
+
+
+	<programme id="26">
+		<name>Interstallar</name>
+		<image>../images/programmes/interstellar.jpg</image>
+		<mood>Wide Awake </mood>
+	</programme>
+	<programme id="27">
+		<name>The Dark Knight</name>
+		<image>../images/programmes/thedarkknight.jpg</image>
+		<mood>Wide Awake </mood>
+	</programme>
+	<programme id="28">
+		<name>The Matrix</name>
+		<image>../images/programmes/thematrix.jpg</image>
+		<mood>Wide Awake </mood>
+	</programme>
+	<programme id="29">
+		<name>Die Hard</name>
+		<image>../images/programmes/diehard.jpg</image>
+		<mood>Wide Awake </mood>
+	</programme>
+	<programme id="30">
+		<name>The Avengers</name>
+		<image>../images/programmes/theavengers.jpg</image>
+		<mood>Wide Awake </mood>
+	</programme>
+
+	<programme id="31">
+		<name>The Exorcist</name>
+		<image>../images/programmes/theexorcist.jpg</image>
+		<mood>Scared</mood>
+	</programme>
+	<programme id="32">
+		<name>The Shining</name>
+		<image>../images/programmes/theshining.jpg</image>
+		<mood>Scared</mood>
+	</programme>
+	<programme id="33">
+		<name>Scream</name>
+		<image>../images/programmes/scream.jpg</image>
+		<mood>Scared</mood>
+	</programme>
+	<programme id="34">
+		<name>The Babadook</name>
+		<image>../images/programmes/thebabadook.jpg</image>
+		<mood>Scared</mood>
+	</programme>
+	<programme id="35">
+		<name>Psycho</name>
+		<image>../images/programmes/psycho.jpg</image>
+		<mood>Scared</mood>
+	</programme>
+
+
+
+	<programme id="36">
+		<name>Toy Story</name>
+		<image>../images/programmes/toystory.jpg</image>
+		<mood>Fearless</mood>
+	</programme>
+	<programme id="37">
+		<name>Finding Nemo</name>
+		<image>../images/programmes/findingnemo.jpg</image>
+		<mood>Fearless</mood>
+	</programme>
+	<programme id="38">
+		<name>Frozen</name>
+		<image>../images/programmes/frozen.jpg</image>
+		<mood>Fearless</mood>
+	</programme>
+	<programme id="39">
+		<name>The Incredibles</name>
+		<image>../images/programmes/theincredibles.jpg</image>
+		<mood>Fearless</mood>
+	</programme>
+	<programme id="40">
+		<name>The Lego Movie</name>
+		<image>../images/programmes/thelegomovie.jpg</image>
+		<mood>Fearless</mood>
+	</programme>
+
 </programmeList>

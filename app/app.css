@@ -1,11 +1,34 @@
 /* app css stylesheet */
 
+@font-face {
+	font-family: skyTextRegular;
+	src: url(font/sky-text-regular.ttf);
+}
+
+body {
+	font-family: skyTextRegular;
+	background-image: url(images/Polaris.jpg);
+}
+
 md-slider-container {
 	padding-bottom: 20px;
 }
 
 md-slider-container>:first-child:not(md-slider), md-slider-container>:last-child:not(md-slider) {
 	max-width: none !important;
+}
+
+h1 {
+	font-size: 80px;
+	margin: 0;
+}
+
+md-toolbar {
+	color: none;
+}
+
+.filmRowContainer {
+	padding-right: 30px;
 }
 
 .leftFeeling {
@@ -18,9 +41,17 @@ md-slider-container>:first-child:not(md-slider), md-slider-container>:last-child
 	text-align: center;
 }
 
-md-toolbar {
-	color: none;
+#container {
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	border-radius: 25%;
 }
+
+.heightRow {
+	height: 80%;
+}
+
 .margin {
 	margin: 10px;
 }
@@ -41,6 +72,7 @@ md-toolbar {
 .menu {
 	list-style: none;
 	margin-bottom: 2em;
+	margin-top: 2em;
 	padding: 0 0 0.5em;
 	font-size: 17px;
 }
